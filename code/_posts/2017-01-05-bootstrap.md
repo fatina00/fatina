@@ -8,20 +8,17 @@ featured_image: /images/touxiang.jpg
 
 ### 菜单下拉框形式
 >下面是实现代码片段：
-<pre>
-	<code>
-		<li>
-			<a href="#">特点</a>
-				<ul>
-					<li><a href="#" >Chrome</a></li>
-					<li><a href="#">Firefox</a></li>
-					<li><a href="#">Safari</a></li>
-					<li><a href="#">Opera</a></li>
-					<li><a href="#">IE</a></li>
-				</ul>
-		</li>
-	</code>
-</pre>
+	'<li>
+		<a href="#">特点</a>
+			<ul>
+				<li><a href="#" >Chrome</a></li>
+				<li><a href="#">Firefox</a></li>
+				<li><a href="#">Safari</a></li>
+				<li><a href="#">Opera</a></li>
+				<li><a href="#">IE</a></li>
+			</ul>
+	</li>'
+
 >&emsp;在做导航条的时候，.navbar-inverse类可以改变导航条的外观，变成黑底显示
 >.navbar-fixed-top类可以让导航条固定在顶部，固定的导航条会遮住页面上的其他内容，除非给<body>元素设置了padding，导航条的默认高度是50px，比如设置：body{padding-top:70px;}
 >
